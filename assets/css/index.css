@@ -1,0 +1,239 @@
+.index_line{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.index_text{
+	font-size: 42px;
+	margin: 12px;
+}
+
+.img{
+	display: flex;
+	/* justify-content: space-around; */
+	align-items: center;
+	margin-top: 30px;
+	/* background-color: #DDDDDD; */
+}
+
+.f_cols{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	width: 20%;
+	height: 400px;
+	/* background-color: #aaaaaa; */
+	position: relative;
+	left: 15%;
+}
+
+.f_text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: 27%;
+	font-size: 36px;
+	font-weight: 700;
+	text-decoration: none;
+	background-color: #f47400;
+	color: #fffbdf;
+	/* border: 1.5px dotted #fffbdf; */
+}
+
+.f_text:hover{
+	background-color: #fffbdf;
+	color: #f47400;
+	border: 1.5px dotted #f47400;
+}
+
+.img_list{
+	position: relative;
+	left: 18%;
+	width: 46%;
+	height: 400px;
+}
+
+.arrow{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+	font-size: 40px;
+	font-weight: 500;
+	position: relative;
+	left: 25%;
+	width: 50%;
+	/* background-color: #aaaaaa; */
+}
+
+.arrow_left:before{
+	content: "\25C3";
+	color: #f47400;
+	font-size: 60px;
+}
+
+.arrow_right:before{
+	content: "\25B9";
+	color: #f47400;
+	font-size: 60px;
+}
+
+
+.circle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 999px;
+	width: 34px;
+	height: 34px;
+	font-size: 26px;
+	background-color: #ffe3b9;
+	border: 1.5px solid #ff8000;
+	color: #ff8000;	
+}
+.circle:hover{
+	background-color: #ff8000;
+	border: 1.5px solid #ffe3b9;
+	color: #ffe3b9;
+}
+
+.c1:before{
+	content: "1";
+}
+.c2:before{
+	content: "2";
+}
+.c3:before{
+	content: "3";
+}
+.c4:before{
+	content: "4";
+}
+.c5:before{
+	content: "5";
+}
+
+
+.intro{
+	position: relative;
+	left: 12%;
+	margin-top: 20px;
+	width: 76%;
+	/* height: 200px; */
+	/* background-color: #aaaaaa; */
+	/* color: white; */
+	font-size: 30px;
+}
+
+.f_line{
+	background-color: #fffbdf;
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1.5px solid #de560f;
+}
+
+.f_name{
+	font-size: 60px;
+	color: #de560f;
+	margin-bottom: 10px;
+	font-family: "微軟正黑體";
+	text-decoration: underline;
+}
+
+.f_cen{
+	display: flex;
+}
+
+.f_cont{
+	font-size: 20px;
+	/* color: #de560f; */
+	font-family: "微軟正黑體";
+	line-height: 50px;
+}
+
+.img_depart{
+	position: absolute;
+	left: 3%;
+	top: 220px;
+	width: 8%;
+	transform:rotate(-10deg);
+}
+
+.img_school{
+	position: absolute;
+	right: 3%;
+	top: 350px;
+	width: 8%;
+	transform:rotate(10deg);
+}
+
+.img_mirror{
+	position: absolute;
+	left: 2%;
+	top: 550px;
+	width: 9%;
+	transform:rotate(60deg);
+}
+
+.img_robot{
+	position: absolute;
+	left: 1%;
+	top: 900px;
+	width: 10%;
+	transform:rotate(-10deg);
+}
+
+
+.img_robot2{
+	position: absolute;
+	right: 1%;
+	top: 780px;
+	width: 10%;
+	transform:rotate(10deg);
+}
+
+.img_teacher{
+	position: absolute;
+	left: 1%;
+	top: 1500px;
+	width: 10%;
+	transform:rotate(10deg);
+}
+
+.img_teacher2{
+	position: absolute;
+	right: 1%;
+	top: 1300px;
+	width: 10%;
+	transform:rotate(-10deg);
+}
+
+.img_file{
+	position: absolute;
+	left: 1%;
+	top: 2150px;
+	width: 10%;
+	transform:rotate(-10deg);
+}
+
+.img_light{
+	position: absolute;
+	right: 1%;
+	top: 1900px;
+	width: 10%;
+	transform:rotate(-10deg);
+}
+
+.img_ai{
+	position: absolute;
+	right: 1%;
+	top: 2450px;
+	width: 10%;
+	transform:rotate(-10deg);
+}
+
+

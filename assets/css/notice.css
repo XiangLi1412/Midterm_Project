@@ -1,0 +1,55 @@
+.content_line{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid black; */
+	margin-top: 40px;
+}
+
+.content_block{
+	width: 74%;
+	padding: 20px;
+	background-color: #fffbdf;
+	border: 2px dotted #de560f;
+}
+
+.a_title{
+	/* color: #de560f; */
+	font-size: 25px;
+	font-weight: bolder;
+	/* background-color: #dddddd; */
+	font-family: "微軟正黑體";
+}
+
+.date{
+	margin-top: 18px;
+	/* color: #de560f; */
+	font-size: 23px;
+	/* font-weight: bold; */
+	font-family: "微軟正黑體";
+}
+
+.date:before{
+	content: "\1F4C5";
+	margin-right: 10px;
+}
+
+.content{
+	/* color: #de560f; */
+	margin-top: 22px;
+	font-size: 20px;
+	/* font-weight: bold; */
+	font-family: "微軟正黑體";
+}
+
+.more_line{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.more_text{
+	/* color: #de560f; */
+	padding: 20px;
+}
+

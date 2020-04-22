@@ -1,0 +1,107 @@
+.player_line{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.player{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 14px;
+	/* background-color: #cccccc; */
+	width: 75%;
+	margin-top: 30px;
+	font-family: "微軟正黑體";
+}
+
+.player_img{
+	width: 28%;
+	height: 300px;
+}
+
+.player_text{
+	font-size: 20px;
+	width: 60%;
+	background-color: #ffe3b9;
+	padding: 20px;
+	line-height: 30px;
+}
+
+.img_me{
+	position: absolute;
+	left: 2%;
+	top: 220px;
+	width: 9%;
+	transform:rotate(-10deg);
+}
+
+.img_guitar{
+	position: absolute;
+	right: 2%;
+	top: 350px;
+	width: 10%;
+	transform:rotate(10deg);
+}
+
+.img_math{
+	position: absolute;
+	left: 2%;
+	top: 600px;
+	width: 9%;
+	transform:rotate(-10deg);
+}
+
+.img_badminton{
+	position: absolute;
+	right: 2%;
+	top: 700px;
+	width: 10%;
+	transform:rotate(-10deg);
+}
+
+.img_palette{
+	position: absolute;
+	left: 2%;
+	top: 900px;
+	width: 9%;
+	transform:rotate(-10deg);
+}
+
+.img_sun{
+	position: absolute;
+	left: 1%;
+	top: 1250px;
+	width: 10%;
+	transform:rotate(-10deg);
+}
+
+.img_frog{
+	position: absolute;
+	right: 2%;
+	top: 1050px;
+	width: 10%;
+	transform:rotate(10deg);
+}
+
+
+
+
+
+.fa-facebook, .fa-line, .fa-instagram{
+	font-size: 28px;
+	margin-right: 6px; 
+}
+
+.fa-facebook{
+	color: #4267b2;
+}
+.fa-line{
+	color: #00b900;
+}
+.fa-instagram{
+	/* background: linear-gradient(to top right,#eca71c,#b4028d); */
+	background: #ffe3b9;
+	color: #d12f78;
+}

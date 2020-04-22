@@ -1,0 +1,164 @@
+
+.iframe{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.ifr_pri{
+	display: flex;
+	position: relative;
+	left: 13%;
+	width: 74%;
+	align-items: center;
+	margin-top: 40px;
+	font-size: 36px;
+	font-family: "微軟正黑體";
+	padding-left: 12px;
+	border-left: 8px solid #f47400;
+}
+
+.ifr_title{
+	display: flex;
+	position: relative;
+	left: 13%;
+	width: 74%;
+	align-items: center;
+	margin-top: 30px;
+	font-size: 26px;
+	font-family: "微軟正黑體";
+}
+
+.ifr_intro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 16px;
+}
+
+
+.ifr_cont{
+	width: 74%;
+	margin-bottom: 40px;
+	font-size: 22px;
+	line-height: 36px;
+	font-family: "微軟正黑體";
+}
+
+.hr{
+	background-color: #f47400;
+	width: 84%;
+	height: 4px;
+	position: relative;
+	left: 8%;
+	
+}
+
+
+.img_pro{
+	display: flex;
+	position: relative;
+	left: 13%;
+	width: 74%;
+	height: 550px;
+	align-items: center;
+	margin-top: 30px;
+	font-size: 26px;
+}
+
+.board_line{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	font-family: "微軟正黑體";
+}
+
+.board_text{
+	background-color: #fffbdf;
+	font-size: 40px;
+	padding: 10px;
+	width: 74%;
+	color: #de560f;
+	border: 1.5px solid #de560f;
+}
+
+.tel_line{
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+	font-family: "微軟正黑體";
+}
+
+.tel_text{
+	/* background-color: #cccccc; */
+	font-size: 26px;
+	padding: 10px;
+	position: relative;
+	left: 12%;
+	/* color: #de560f; */
+	font-family: "微軟正黑體";
+}
+
+.tel_num{
+	position: relative;
+	left: 12%;
+	font-size: 20px;
+	height: 1.5rem;
+	outline: none;
+	padding: 6px;
+	padding-left: 10px;
+	width: 20%;
+	font-family: "微軟正黑體";
+	border: 0.5px solid #de560f;
+}
+.tel_num:hover{
+	border: 1.5px solid #de560f;
+}
+
+.tarea_line{
+	display: flex;
+	align-items: center;
+	font-family: "微軟正黑體";
+}
+
+textarea{
+	padding: 10px;
+	font-size: 16px;
+	outline: none;
+	position: relative;
+	font-size: 20px;
+	left: 13%;
+	width: 50%;
+	resize:none;
+	border: 0.5px solid #de560f;
+	font-family: "微軟正黑體";
+}
+
+textarea:hover{
+	border: 1.5px solid #de560f;
+}
+
+.submit_line{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	font-family: "微軟正黑體";
+}
+
+.submit{
+	font-size: 32px;
+	padding: 10px;
+	border: 1.5px solid #de560f;
+	background-color: #ffe3b9;
+	color: #de560f;
+	margin-bottom: 20px;
+	outline: none;
+}
+.submit:hover{
+	border: 1.5px solid #ffe3b9;
+	background-color: #de560f;
+	color: #ffe3b9;
+}
