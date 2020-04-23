@@ -48,7 +48,7 @@ const c_joke = () => {
 		joke_text = "../assets/img/film/"+joke_num+".jpg";
 		let joke = document.getElementById("joke");
 		joke.src = joke_text;
-	},235);
+	},220);
 }
 
 c_joke();
