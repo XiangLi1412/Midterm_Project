@@ -3,7 +3,7 @@ const show_thank = () => {
 	let email = document.getElementById("email").value;
 	let reply = document.getElementById("reply").value;
 	
-	alert(`非常感謝您的回覆!!!\n我們已經收到您填寫的訊息~\n\n以下是您的回覆資料 :\n您的電話號碼: ${email}\n您的信箱 : ${tel}\n您想說的話 : \n${reply}\n\n按下確定按鈕後會回到網頁最上端喔~`);
+	alert(`非常感謝您的回覆!!!\n我們已經收到您填寫的訊息~\n\n以下是您的回覆資料 :\n您的電話號碼: ${email}\n您的信箱 : ${tel}\n您想說的話 : \n${reply}`);
 	document.location.href = "film.html";
 }
 
@@ -48,7 +48,7 @@ const c_joke = () => {
 		joke_text = "../assets/img/film/"+joke_num+".jpg";
 		let joke = document.getElementById("joke");
 		joke.src = joke_text;
-	},210);
+	},230);
 }
 
 c_joke();
