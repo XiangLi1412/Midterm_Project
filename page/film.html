@@ -101,23 +101,25 @@
 			<div class="board_line">
 				<div class="board_text">意見回饋</div>
 			</div>
-			<div class="tel_line">
-				<div class="tel_text">信箱 : </div>
-				<input class="tel_num" id="email" type="text" placeholder="請輸入信箱">	
-			</div>
-			<div class="tel_line">
-				<div class="tel_text">電話 : </div>
-				<input class="tel_num" id="tel" type="text" placeholder="請輸入電話號碼">
-			</div>
-			<div class="tel_line">
-				<div class="tel_text">想說的話 : </div>
-			</div>
-			<div class="tarea_line">
-				<textarea placeholder="想說的話" id="reply" rows="7"></textarea>
-			</div>
-			<div class="submit_line">
-				<input class="submit" type="submit" onclick="show_thank()">
-			</div>
+			<form method="post" action="mailto:faker54068@gmail.com?subject=test" enctype="text/plain">
+				<div class="tel_line">
+					<div class="tel_text">信箱 : </div>
+					<input class="tel_num" id="email" type="text" placeholder="請輸入信箱">	
+				</div>
+				<div class="tel_line">
+					<div class="tel_text">電話 : </div>
+					<input class="tel_num" id="tel" type="text" placeholder="請輸入電話號碼">
+				</div>
+				<div class="tel_line">
+					<div class="tel_text">想說的話 : </div>
+				</div>
+				<div class="tarea_line">
+					<textarea placeholder="想說的話" id="reply" rows="7"></textarea>
+				</div>
+				<div class="submit_line">
+					<input class="submit" type="submit" onclick="show_thank()">
+				</div>
+			<form>
 		</section>
 		<aside>
 			<a class="goto" href="#">TOP</a>
